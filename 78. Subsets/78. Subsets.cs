@@ -1,12 +1,13 @@
 ﻿public class Solution {
-    public IList<IList<int>> Subsets(int[] nums) {
+    public IList<IList<int>> Subsets(int[] nums) 
+    {
         List<IList<int>> result = new List<IList<int>>();
         List<int> current = new List<int>();
 
-        void Backtrack(int start) {
+        void Backtrack(int start) 
+        {
             // Add current subset (copy)
             result.Add(new List<int>(current));
-
             for (int i = start; i < nums.Length; i++) {
                 // Choose
                 current.Add(nums[i]);
