@@ -1,4 +1,5 @@
-﻿public class Solution {
+﻿public class Solution 
+{
     public IList<IList<int>> Subsets(int[] nums) 
     {
         List<IList<int>> result = new List<IList<int>>();
