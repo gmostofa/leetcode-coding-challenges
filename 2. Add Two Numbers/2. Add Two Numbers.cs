@@ -32,7 +32,6 @@ public class Solution {
             current.next = new ListNode(sum % 10);  // current digit
             current = current.next;
         }
-
         return dummy.next;
     }
 }
