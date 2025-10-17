@@ -5,6 +5,7 @@
         List<IList<int>> result = new List<IList<int>>();
         List<int> current = new List<int>();
 
+        
         void Backtrack(int start) 
         {
             // Add current subset (copy)
