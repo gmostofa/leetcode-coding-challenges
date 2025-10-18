@@ -8,7 +8,6 @@
 
         // If all numbers are same
         if (minVal == maxVal) return 0;
-
         // Bucket size
         int bucketSize = Math.Max(1, (maxVal - minVal) / (n - 1));
         int bucketCount = (maxVal - minVal) / bucketSize + 1;
