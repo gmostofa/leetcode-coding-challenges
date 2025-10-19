@@ -6,7 +6,6 @@ public class Solution {
         if (nums == null || nums.Length == 0) {
             return "";
         }
-        
         // Convert integers to strings
         string[] strNums = nums.Select(n => n.ToString()).ToArray();
         
