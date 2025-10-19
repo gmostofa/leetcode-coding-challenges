@@ -17,7 +17,6 @@ public class Solution {
         if (strNums[0] == "0") {
             return "0";
         }
-        
         // Concatenate and return
         return string.Join("", strNums);
     }
