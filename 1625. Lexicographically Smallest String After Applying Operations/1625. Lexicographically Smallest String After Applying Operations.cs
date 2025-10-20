@@ -1,4 +1,5 @@
-﻿public class Solution {
+﻿public class Solution 
+{
     public string FindLexSmallestString(string s, int a, int b) {
         HashSet<string> visited = new HashSet<string>();
         Queue<string> queue = new Queue<string>();
