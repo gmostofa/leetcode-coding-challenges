@@ -7,7 +7,6 @@
         string smallest = s;
         queue.Enqueue(s);
         visited.Add(s);
-
         while (queue.Count > 0) {
             string curr = queue.Dequeue();
             if (String.Compare(curr, smallest) < 0)
