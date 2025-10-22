@@ -1,6 +1,6 @@
 ﻿public class Solution {
     public double FindMedianSortedArrays(int[] nums1, int[] nums2) {
-        // Ensure nums1 is smaller for binary search efficiency
+       
         if (nums1.Length > nums2.Length)
             return FindMedianSortedArrays(nums2, nums1);
 
