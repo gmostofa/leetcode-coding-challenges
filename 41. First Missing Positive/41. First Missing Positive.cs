@@ -1,4 +1,5 @@
-﻿public class Solution {
+﻿public class Solution 
+{
     public int FirstMissingPositive(int[] nums) {
         int n = nums.Length;
         
