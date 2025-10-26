@@ -14,7 +14,6 @@ public class Solution {
             sb.Insert(0, (sum % 2).ToString());
             carry = sum / 2;
         }
-
         return sb.ToString();
     }
 }

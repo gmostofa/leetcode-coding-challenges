@@ -1,12 +1,12 @@
 using System;
 using System.Linq;
 
+
 public class Solution {
     public string LargestNumber(int[] nums) {
         if (nums == null || nums.Length == 0) {
             return "";
         }
-        
         // Convert integers to strings
         string[] strNums = nums.Select(n => n.ToString()).ToArray();
         
@@ -17,7 +17,6 @@ public class Solution {
         if (strNums[0] == "0") {
             return "0";
         }
-        
         // Concatenate and return
         return string.Join("", strNums);
     }
