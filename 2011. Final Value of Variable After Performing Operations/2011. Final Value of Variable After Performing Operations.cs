@@ -1,7 +1,10 @@
-﻿public class Solution {
-    public int FinalValueAfterOperations(string[] operations) {
+﻿public class Solution 
+{
+    public int FinalValueAfterOperations(string[] operations) 
+    {
         int x = 0;
-        foreach (var op in operations) {
+        foreach (var op in operations) 
+        {
             if (op.Contains("++"))
                 x++;
             else
