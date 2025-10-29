@@ -1,9 +1,11 @@
 namespace DefaultNamespace;
 
-public class Bank {
+public class Bank 
+{
     private long[] balance;
 
-    public Bank(long[] balance) {
+    public Bank(long[] balance) 
+    {
         this.balance = balance;
     }
 
