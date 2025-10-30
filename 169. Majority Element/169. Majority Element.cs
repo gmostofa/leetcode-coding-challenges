@@ -1,7 +1,9 @@
 ﻿namespace DefaultNamespace;
 
-public class Solution {
-    public int MajorityElement(int[] nums) {
+public class Solution 
+{
+    public int MajorityElement(int[] nums) 
+    {
         int candidate = nums[0];
         int count = 0;
         

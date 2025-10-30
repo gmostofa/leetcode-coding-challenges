@@ -13,7 +13,6 @@ public class Solution
         }
         return "";
     }
-
     private bool IsPalindrome(string s) 
     {
         int left = 0;
