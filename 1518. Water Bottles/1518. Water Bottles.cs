@@ -1,6 +1,7 @@
 ﻿namespace DefaultNamespace;
 
-public class Solution {
+public class Solution 
+{
     public int NumWaterBottles(int numBottles, int numExchange) {
         int total = numBottles;
         int empty = numBottles;
