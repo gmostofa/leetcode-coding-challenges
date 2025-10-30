@@ -1,7 +1,9 @@
 namespace DefaultNamespace;
 
-public class Solution {
-    public int MinNumberOperations(int[] target) {
+public class Solution 
+{
+    public int MinNumberOperations(int[] target) 
+    {
         if (target == null || target.Length == 0) return 0;
 
         int n = target.Length;
