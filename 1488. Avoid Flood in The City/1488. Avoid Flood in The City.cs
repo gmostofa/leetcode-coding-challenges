@@ -1,7 +1,8 @@
 namespace DefaultNamespace;
 using System.Collections.Generic;
 
-public class Solution {
+public class Solution 
+{
     public int[] AvoidFlood(int[] rains) {
         int n = rains.Length;
         int[] ans = new int[n];
