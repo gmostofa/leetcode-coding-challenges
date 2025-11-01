@@ -10,7 +10,8 @@
  * }
  */
 
-public class Solution {
+public class Solution 
+{
     public ListNode ModifiedList(int[] nums, ListNode head) {
         var set = new HashSet<int>(nums);
         var dummy = new ListNode(0, head);
