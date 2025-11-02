@@ -2,7 +2,7 @@ public class Solution {
     public int PeopleAwareOfSecret(int n, int delay, int forget) {
         const int MOD = 1000000007;
         int[] dp = new int[n + 1];
-        dp[1] = 1; // On day 1, one person knows the secret.
+        dp[1] = 1; 
         
         long totalPeopleKnowing = 1; // Total number of people who currently know the secret.
         long peopleSharing = 0; // Number of people available to share the secret.

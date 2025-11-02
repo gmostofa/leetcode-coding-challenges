@@ -10,7 +10,6 @@ public class Solution
 
         return IsPrime(root);
     }
-
     private bool IsPrime(int num) 
     {
         if (num < 2) return false;

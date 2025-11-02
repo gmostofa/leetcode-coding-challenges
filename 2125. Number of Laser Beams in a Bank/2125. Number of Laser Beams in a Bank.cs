@@ -1,5 +1,7 @@
-public class Solution {
-    public int NumberOfBeams(string[] bank) {
+public class Solution 
+{
+    public int NumberOfBeams(string[] bank) 
+    {
         int prev = 0;
         int total = 0;
 
