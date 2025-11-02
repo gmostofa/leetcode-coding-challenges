@@ -2,7 +2,8 @@ using System;
 using System.Linq;
 
 
-public class Solution {
+public class Solution 
+{
     public string LargestNumber(int[] nums) {
         if (nums == null || nums.Length == 0) {
             return "";
