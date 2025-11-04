@@ -1,4 +1,5 @@
-public class Solution {
+public class Solution 
+{
     public int FindComplement(int num) {
         int bitLength = (int)Math.Log(num, 2) + 1;
         
