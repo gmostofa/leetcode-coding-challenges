@@ -2,6 +2,7 @@ namespace DefaultNamespace;
 
 public class Bank 
 {
+    
     private long[] balance;
 
     public Bank(long[] balance) 
