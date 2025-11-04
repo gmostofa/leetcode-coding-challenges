@@ -1,4 +1,5 @@
-public class Solution {
+public class Solution 
+{
     public int LongestPalindrome(string s)
     {
         Dictionary<char, int> freq = new Dictionary<char, int>();
@@ -21,4 +22,5 @@ public class Solution {
             length += 1; 
         return length;
     }
+    
 }

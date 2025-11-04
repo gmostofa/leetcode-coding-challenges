@@ -1,5 +1,6 @@
 namespace DefaultNamespace;
 
+
 public class Solution 
 {
     public int FindMaxConsecutiveOnes(int[] nums) 
@@ -21,4 +22,5 @@ public class Solution
         }
         return maxCount;
     }
+    
 }
