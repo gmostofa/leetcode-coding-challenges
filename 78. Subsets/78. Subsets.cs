@@ -8,7 +8,6 @@
         
         void Backtrack(int start) 
         {
-            // Add current subset (copy)
             result.Add(new List<int>(current));
             for (int i = start; i < nums.Length; i++) {
                 // Choose
