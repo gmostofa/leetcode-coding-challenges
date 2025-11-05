@@ -14,7 +14,8 @@ public class Bank
         return account >= 1 && account <= balance.Length;
     }
 
-    public bool Transfer(int account1, int account2, long money) {
+    public bool Transfer(int account1, int account2, long money) 
+    {
         if (!IsValid(account1) || !IsValid(account2)) return false;
         if (balance[account1 - 1] < money) return false;
 
