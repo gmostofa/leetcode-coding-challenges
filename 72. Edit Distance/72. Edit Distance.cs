@@ -1,6 +1,7 @@
 ﻿namespace DefaultNamespace;
 
-public class Solution {
+public class Solution 
+{
     public int MinDistance(string word1, string word2) {
         int m = word1.Length, n = word2.Length;
         int[,] dp = new int[m + 1, n + 1];
