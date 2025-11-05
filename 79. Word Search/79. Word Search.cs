@@ -1,5 +1,6 @@
 ﻿public class Solution {
-    public bool Exist(char[][] board, string word) {
+    public bool Exist(char[][] board, string word) 
+    {
         int rows = board.Length;
         int cols = board[0].Length;
 
