@@ -2,6 +2,7 @@
 
 public class Solution 
 {
+
     public int FindMin(int[] nums)
     {
         int left = 0;
