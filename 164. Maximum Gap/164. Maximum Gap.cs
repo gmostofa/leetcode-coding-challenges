@@ -29,6 +29,7 @@
             bucketMax[idx] = Math.Max(bucketMax[idx], num);
         }
 
+        
         // Find max gap
         int maxGap = 0;
         int prevMax = minVal;
