@@ -18,7 +18,6 @@
                 current.RemoveAt(current.Count - 1);
             }
         }
-
         Backtrack(0);
         return result;
     }
