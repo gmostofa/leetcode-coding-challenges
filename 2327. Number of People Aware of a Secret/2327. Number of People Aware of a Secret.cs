@@ -23,6 +23,7 @@ public class Solution {
             totalPeopleKnowing = (totalPeopleKnowing + dp[day]) % MOD;
         }
         
+        
         return (int)totalPeopleKnowing;
     }
 }
