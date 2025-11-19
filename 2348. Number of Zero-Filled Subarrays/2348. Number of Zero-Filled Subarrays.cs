@@ -22,6 +22,7 @@ public class Solution
         {
             result += count * (count + 1) / 2;
         }
+        
         return result;
     }
 }
