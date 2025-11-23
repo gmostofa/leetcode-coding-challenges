@@ -31,7 +31,6 @@ public class Solution
             }
             num /= 10;
         }
-
         return true;
     }
 }
