@@ -15,6 +15,7 @@ public class Solution {
             if (s[i] == c) prev = i;
             result[i] = Math.Min(result[i], prev - i);
         }
+        
         return result;
     }
 }
