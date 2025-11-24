@@ -19,7 +19,6 @@ public class Solution {
                 }
             }
         }
-
         return maxArea;
     }
 }
