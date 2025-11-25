@@ -9,8 +9,6 @@
             else
                 i += 1;     // 1-bit character
         }
-
-        
         return i == n - 1;  // landed on last index?
     }
 }
