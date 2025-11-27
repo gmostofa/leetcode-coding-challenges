@@ -5,7 +5,6 @@
         while (set.Contains(original)) {
             original *= 2;
         }
-
         return original;
     }
 }
