@@ -10,5 +10,6 @@ public class Solution
         if (x * x == totalSum)
             return x;
         return -1;
+        
     }
 }
