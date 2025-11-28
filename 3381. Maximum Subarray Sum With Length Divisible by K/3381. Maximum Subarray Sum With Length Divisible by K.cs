@@ -22,7 +22,6 @@
             // update minimum prefix for this modulo group
             minPrefix[mod] = Math.Min(minPrefix[mod], prefix);
         }
-
         return ans;
     }
 }
