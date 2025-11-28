@@ -18,6 +18,7 @@
             }
             leftSum += nums[i];
         }
+        
         return result;
     }
 }
