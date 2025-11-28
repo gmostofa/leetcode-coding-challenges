@@ -17,7 +17,6 @@ public class Solution
                 stack.Pop(); 
             }
         }
-
         
         return new string(stack.Reverse().ToArray());
     }
