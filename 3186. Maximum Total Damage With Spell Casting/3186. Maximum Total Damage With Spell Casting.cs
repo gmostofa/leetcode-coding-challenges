@@ -26,7 +26,7 @@
                 if (unique[mid] > curVal + 2) hi = mid;
                 else lo = mid + 1;
             }
-            nxt[i] = lo;  // could be m (out of bounds)
+            nxt[i] = lo; 
         }
 
         // 4. DP array: dp[i] = max damage from i to end
