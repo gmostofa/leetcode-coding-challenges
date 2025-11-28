@@ -13,7 +13,6 @@
                     break;
             }
         }
-
         return result.ToArray();
     }
 }
