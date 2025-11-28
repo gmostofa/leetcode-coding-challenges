@@ -8,7 +8,6 @@ public class Solution
         {
             score += Math.Abs(s[i] - s[i - 1]);
         }
-
         return score;
     }
 
