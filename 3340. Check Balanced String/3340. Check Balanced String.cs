@@ -19,6 +19,7 @@ public class Solution
                 oddSum += digit;
             }
         }
+        
         return evenSum == oddSum;
     }
 }
