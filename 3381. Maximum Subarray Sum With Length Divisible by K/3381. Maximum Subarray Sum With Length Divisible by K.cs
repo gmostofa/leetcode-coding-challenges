@@ -23,5 +23,6 @@
             minPrefix[mod] = Math.Min(minPrefix[mod], prefix);
         }
         return ans;
+        
     }
 }
