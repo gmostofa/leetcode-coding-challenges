@@ -14,7 +14,6 @@ public class Solution
                 sum += nums[i] * nums[i];  // square and add
             }
         }
-
         return sum;
     }
 }
