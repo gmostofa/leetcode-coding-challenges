@@ -20,7 +20,6 @@ public class Solution
             if (kvp.Value == 1)
                 sum += kvp.Key;
         }
-
         return sum;
     }
 
