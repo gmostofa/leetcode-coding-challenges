@@ -12,7 +12,6 @@
                 return left.Length >= right.Length ? left : right;
             }
         }
-
         return s;
     }
 }
