@@ -38,7 +38,6 @@
             result++;
             return 0;
         }
-
         return (int)(sum % K);
     }
 }
