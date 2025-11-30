@@ -1,8 +1,7 @@
 public class Solution {
     public int MaxSumDivThree(int[] nums) {
         int sum = 0;
-
-        // store up to 2 smallest numbers of remainder 1 and 2
+        
         List<int> rem1 = new List<int>();
         List<int> rem2 = new List<int>();
 
