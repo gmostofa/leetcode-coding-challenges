@@ -21,7 +21,6 @@ public class Solution
         {
             result[i] = nums[i] == 0 ? 0 : freq[nums[i] - 1];
         }
-        
         return result;
     }
 }
