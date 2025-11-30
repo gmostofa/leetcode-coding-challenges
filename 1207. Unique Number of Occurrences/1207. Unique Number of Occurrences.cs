@@ -18,6 +18,7 @@ public class Solution
             if (!uniqueFreq.Add(count))
                 return false;
         }
+        
         return true;
     }
 }
