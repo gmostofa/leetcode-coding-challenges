@@ -15,5 +15,4 @@ public class Solution
         }
         return int.Parse(new string(chars));
     }
-
 }
