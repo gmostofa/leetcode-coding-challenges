@@ -29,6 +29,7 @@ public class Solution {
                 }
             }
         }
+        
         return partsFound >= 3 && currentSum == 0;
     }
 }
