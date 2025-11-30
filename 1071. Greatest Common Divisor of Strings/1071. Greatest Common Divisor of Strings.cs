@@ -10,6 +10,7 @@ public class Solution
         int gcdLength = GCD(str1.Length, str2.Length);
         return str1.Substring(0, gcdLength);
     }
+    
 
     private int GCD(int a, int b) 
     {
