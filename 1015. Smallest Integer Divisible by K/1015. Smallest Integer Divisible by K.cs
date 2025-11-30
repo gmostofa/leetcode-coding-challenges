@@ -12,6 +12,6 @@
                 return length;
         }
 
-        return -1; // should never reach here for valid K
+        return -1; 
     }
 }
