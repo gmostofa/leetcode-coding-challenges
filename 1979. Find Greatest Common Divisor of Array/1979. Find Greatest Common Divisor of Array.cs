@@ -17,6 +17,7 @@ public class Solution
             b = a % b;
             a = temp;
         }
+        
         return a;
     }
 }
