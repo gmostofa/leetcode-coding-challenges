@@ -11,7 +11,6 @@ public class Solution
             else
                 x--;
         }
-
         return x;
     }
 }
