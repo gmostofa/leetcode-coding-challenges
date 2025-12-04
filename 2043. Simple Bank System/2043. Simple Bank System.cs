@@ -23,7 +23,6 @@ public class Bank
         balance[account2 - 1] += money;
         return true;
     }
-
     public bool Deposit(int account, long money) {
         if (!IsValid(account)) return false;
         balance[account - 1] += money;
