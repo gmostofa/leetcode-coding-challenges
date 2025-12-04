@@ -16,6 +16,7 @@ public class Solution
                 break;
             }
         }
+        
         if (index == -1) 
         {
             return word;
