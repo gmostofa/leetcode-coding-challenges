@@ -17,7 +17,6 @@ public class Solution
                 prev = count;
             }
         }
-
         return total;
     }
 }
