@@ -21,6 +21,7 @@
             bucketMax[i] = int.MinValue;
         }
 
+        
         // Fill buckets
         foreach (int num in nums) {
             int idx = (num - minVal) / bucketSize;
