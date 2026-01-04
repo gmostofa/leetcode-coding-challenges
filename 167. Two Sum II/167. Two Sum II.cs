@@ -21,7 +21,6 @@ public class Solution
                 right--;
             }
         }
-
         return new int[] { -1, -1 };
     }
 }
