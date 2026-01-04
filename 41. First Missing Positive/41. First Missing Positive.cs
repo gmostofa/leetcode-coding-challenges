@@ -11,6 +11,7 @@
                 nums[i] = temp;
             }
         }
+        
         for (int i = 0; i < n; i++) 
         {
             if (nums[i] != i + 1)
