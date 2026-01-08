@@ -8,6 +8,7 @@
             result.Add(value == 0);
         }
 
+        
         return result;
     }
 }
