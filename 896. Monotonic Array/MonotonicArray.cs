@@ -16,6 +16,7 @@ public class Solution
                 decreasing = false;
             }
         }
+        
         return increasing || decreasing;
     }
 }
