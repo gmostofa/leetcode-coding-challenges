@@ -11,6 +11,7 @@ public class Solution
         return str1.Substring(0, gcdLength);
     }
     
+    
 
     private int GCD(int a, int b) 
     {
