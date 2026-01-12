@@ -15,7 +15,7 @@ public class Solution
             }
         }
 
-        
+       
         char[] result = stack.ToArray();
         Array.Reverse(result);
         return new string(result);
