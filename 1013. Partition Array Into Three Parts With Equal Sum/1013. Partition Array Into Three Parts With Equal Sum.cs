@@ -10,7 +10,7 @@ public class Solution {
             totalSum += num;
         }
         
-       
+      
         if (totalSum % 3 != 0) return false;
         long target = totalSum / 3;
         
