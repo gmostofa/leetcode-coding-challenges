@@ -11,7 +11,6 @@
             if (num == 0)
                 return length;
         }
-
         
         return -1; 
     }
