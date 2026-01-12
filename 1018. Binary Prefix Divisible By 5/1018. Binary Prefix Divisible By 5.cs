@@ -7,7 +7,6 @@
             value = (value * 2 + bit) % 5;
             result.Add(value == 0);
         }
-
         
         return result;
     }
