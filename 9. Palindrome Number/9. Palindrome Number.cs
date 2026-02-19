@@ -7,5 +7,6 @@ public class Solution {
         Array.Reverse(arr);
         return s == new string(arr);
     }
+    
 
 }
