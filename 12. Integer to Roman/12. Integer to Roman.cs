@@ -11,6 +11,7 @@ public class Solution {
                 result.Append(symbols[i]);
             }
         }
+        
         return result.ToString();
     }
 }
