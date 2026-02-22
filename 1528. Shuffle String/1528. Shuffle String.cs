@@ -11,7 +11,6 @@ public class Solution
         {
             result[indices[i]] = s[i];
         }
-        
         return new string(result);
     }
 }
