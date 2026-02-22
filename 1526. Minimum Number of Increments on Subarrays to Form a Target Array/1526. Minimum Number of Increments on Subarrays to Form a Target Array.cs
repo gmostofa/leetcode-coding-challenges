@@ -15,7 +15,6 @@ public class Solution
                 operations += target[i] - target[i - 1];
             }
         }
-
         return operations;
     }
     
