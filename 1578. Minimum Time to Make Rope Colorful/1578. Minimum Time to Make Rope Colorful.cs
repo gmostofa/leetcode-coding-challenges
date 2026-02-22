@@ -11,6 +11,7 @@
                 neededTime[i] = Math.Max(neededTime[i], neededTime[i - 1]);
             }
         }
+        
         return totalTime;
     }
 }
