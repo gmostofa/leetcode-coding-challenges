@@ -32,6 +32,7 @@
                 queue.Enqueue(rotated);
             }
         }
+        
         return smallest;
     }
 }
