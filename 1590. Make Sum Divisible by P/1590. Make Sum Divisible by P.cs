@@ -24,7 +24,6 @@
             // store current prefix mod
             map[(int)prefix] = i;
         }
-
         return res == nums.Length ? -1 : res;
     }
 }
