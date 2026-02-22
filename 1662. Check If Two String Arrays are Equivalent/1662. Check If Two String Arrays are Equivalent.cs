@@ -7,4 +7,5 @@ public class Solution
         string s2 = string.Join("", word2);
         return s1 == s2;
     }
+    
 }
